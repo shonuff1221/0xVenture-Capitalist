@@ -15,7 +15,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
         <nav className="fixed w-full bg-[#555046] text-neutral-200 z-10 shadow-md p-[1rem] flex justify-between items-center h-[4rem]">
             <div className="flex items-center">
                 <Link href='/'>
-                    <code className={`${buttonClass} sm:mr-[1rem] mr-0 tracking-widest`}>0xVC</code>
+                    <code className={`${buttonClass} sm:mr-[1rem] mr-0 tracking-widest`}>KOC</code>
                 </Link>
                 <div className="flex">
                     {navItems.map(item => (

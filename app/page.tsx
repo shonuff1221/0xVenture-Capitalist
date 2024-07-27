@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 import getCurrentUser from "./actions/getCurrentUser";
 import CTA from "./components/home/CTA";
@@ -10,8 +10,12 @@ export default async function Home() {
     <div className="flex flex-col justify-center items-center text-center">
       {/* HEADER */}
       <div>
-        <h1 className="text-3xl font-bold text-neutral-100 mb-1">0xVenture Capitalist</h1>
-        <h2 className="text-lg text-neutral-300">The world's easiest browser game!</h2>
+        <h1 className="text-3xl font-bold text-neutral-100 mb-1">
+          KOC ClickStarz
+        </h1>
+        <h2 className="text-lg text-neutral-300">
+          The world's easiest browser game!
+        </h2>
       </div>
 
       {/* LOGO/MASCOT */}
@@ -30,7 +34,6 @@ export default async function Home() {
       {/* <div className="max-w-3xl text-center mt-[2rem] text-xl text-neutral-100">
         <div>Build your money EMPIRE, rise to the TOP. Make your FORTUNE, and become a blockchain TYCOON!</div>
       </div> */}
-
     </div>
-  )
+  );
 }
